@@ -3,7 +3,7 @@ string number = Console.ReadLine();
 
 if(number == "1")
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Понедельник - день тяжелый :)");
 }
 
 if(number == "2")
@@ -34,9 +34,4 @@ if(number == "6")
 if(number == "7")
 {
     Console.WriteLine("Воскресенье");
-}
-
-else
-{
-    Console.Write("Написано же от 1 до 7 :)");
 }
