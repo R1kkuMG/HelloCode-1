@@ -1,4 +1,6 @@
-﻿int numA = new Random().Next(10, 100); // 1 2 3 4 ... 9
+﻿// Дано число из отрезка [10, 99]. Показать наибольшую цифру числа
+
+int numA = new Random().Next(10, 100); // 1 2 3 4 ... 9
 Console.WriteLine(numA);
 
 int a = numA/10;
