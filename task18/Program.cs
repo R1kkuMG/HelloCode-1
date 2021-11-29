@@ -1,4 +1,5 @@
 ﻿// 18. Проверить истинность утверждения ¬(X ⋁ Y) = ¬X ⋀ ¬Y
+// изменить коммит
 
 Console.Write("Введите true или false: ");
 bool X = bool.Parse(Console.ReadLine());
