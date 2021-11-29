@@ -1,15 +1,16 @@
 ﻿// Найти третью цифру числа или сообщить, что её нет
 
-Console.Write("Введите число: ");
+Console.Write("Введите любое число: ");
 int num = int.Parse(Console.ReadLine());
-Console.WriteLine(num);
-//int A = num % 100;
-if(num / 10 > 1)
+while(num >= 1000)
 {
-    int B = num % 10;
-    Console.WriteLine(B);
+    num = num/10;
+}
+    if(num < 100)
+{
+    Console.WriteLine("Error");
 }
 else
 {
-    Console.WriteLine("Error");
+Console.WriteLine(num % 10);
 }
