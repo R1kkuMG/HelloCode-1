@@ -3,7 +3,7 @@
 int num = new Random().Next(160, 165);
 Console.WriteLine(num);
 
-if(num / 7 == 23 && num / 23 == 7)
+if(num % 7 == 0 && num % 23 == 0)
 {
     Console.WriteLine("Кратно");
 }
