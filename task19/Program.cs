@@ -12,7 +12,7 @@ if(X != 0 && Y != 0)
     {
         Console.WriteLine("Первая четверть");
     }
-    if(X > 0 && Y < 0)
+    if(X < 0 && Y > 0)
     {
         Console.WriteLine("Вторая четверть");
     }
@@ -20,7 +20,7 @@ if(X != 0 && Y != 0)
     {
         Console.WriteLine("Третья четверть");
     }
-    if(X < 0 && Y > 0)
+    if(X > 0 && Y < 0)
     {
         Console.WriteLine("Четвертая четверть");
     }
