@@ -7,9 +7,13 @@ int B = int.Parse(Console.ReadLine());
 
 if(A == B * B)
 {
-    Console.WriteLine("Второе число явялется квадратом первого");
+    Console.WriteLine("Первое число явялется квадратом второго");
 }
-else
+if(B == A * A)
 {
-    Console.WriteLine("Второе число не является квадратом первого");
+    Console.WriteLine("Второе число является квадратом первого");
+}
+if(B != A * A && A != B * B)
+{
+    Console.WriteLine("Ни одно из чисел не является квадратом другого");
 }
