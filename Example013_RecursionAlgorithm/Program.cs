@@ -56,7 +56,7 @@ PrintArray(matrix); */
 
 
 
-int[,] pic = new int[,] // можно не указывать коол-во строк и столбцов, если у нас есть заданный массив
+/* int[,] pic = new int[,] // можно не указывать коол-во строк и столбцов, если у нас есть заданный массив
 {
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -112,45 +112,41 @@ void FillImage(int row, int col)
 
 
 PrintImage(pic);
-// FillImage(13, 13);
-// PrintImage(pic);
+FillImage(13, 13);
+PrintImage(pic); */
 
 
 
 
 
 
-
-
-// double Factorial(int n)
-// {
-//     // 1! = 1
-//     // 0! = 1
-//     if (n == 1) return 1;
-//     else return n * Factorial(n - 1);
-// }
-// for (int i = 1; i < 40; i++)
-// {
-//     Console.WriteLine($"{i}! = {Factorial(i)}");
+/* double Factorial(int n)
+{
+    // 1! = 1
+    // 0! = 1
+    if (n == 1) return 1;
+    else return n * Factorial(n - 1);
+}
+for (int i = 1; i < 40; i++)
+{
+    Console.WriteLine($"{i}! = {Factorial(i)}");
     
-// }
+} */
 
 
 
-
-
-
+//  числа Фибоначчи
 // f(1) = 1
 // f(2) = 1
 // f(n) = f(n-1) + f(n-2)
 
-/* double Fibonacci(int n)
-{
-    if(n == 1 || n == 2) return 1;
-    else return Fibonacci(n-1) + Fibonacci(n-2);
-}
+// double Fibonacci(int n)
+// {
+//     if(n == 1 || n == 2) return 1;
+//     else return Fibonacci(n-1) + Fibonacci(n-2);
+// }
 
-for (int i = 1; i < 50; i++)
-{
-    Console.WriteLine($"f({i}) = {Fibonacci(i)}");
-} */
+// for (int i = 1; i < 50; i++)
+// {
+//     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
+// }
