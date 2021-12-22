@@ -66,7 +66,7 @@ string Method4(int count, string text)
 string res = Method4(10, "z");
 Console.WriteLine(res);
 
-//for 
+// for 
 // // // for (int i = 2; i <= 10; i++)
 // // // {
 // // //     for (int j = 2; j <= 10; j++)
